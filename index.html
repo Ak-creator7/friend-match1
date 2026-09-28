@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Friend Match — Find your kind of friend</title>
+  <meta name="description" content="Create a fictional teenager, discover compatible friends and present your Grade 10 English friendship project.">
+  <meta name="theme-color" content="#2855e9">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='12' fill='%232855e9'/%3E%3Cpath d='M10 11h21v6H17v5h11v6H17v7h-7z' fill='white'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="data.js"></script><script defer src="app.js"></script>
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+<aside class="sidebar">
+  <a class="brand" href="#discover" aria-label="Friend Match home"><span class="brand-mark">f<span>m</span></span><span>friend<span class="blue">match</span><small>A little hello goes a long way.</small></span></a>
+  <div class="workspace-label">YOUR LITTLE WORLD</div>
+  <nav aria-label="Main navigation" id="navigation"></nav>
+  <div class="sidebar-bottom"><span class="mini-label">MADE FOR THE CLASSROOM</span><h3>Good friends start<br>with understanding.</h3><p>Explore personalities, find common ground, and build your project.</p><span class="class-pill">Grade 10 · English B1</span></div>
+  <div class="sidebar-foot">A fictional friendship project <span>✦</span></div>
+</aside>
+<div class="app-shell">
+  <header class="topbar"><span class="topbar-title" id="breadcrumb">Discover friends</span><div class="topbar-actions"><button class="text-button" id="help-button"><span aria-hidden="true">?</span> O‘zbekcha yordam</button><span class="demo-tag">Classroom demo</span><button class="own-avatar" data-nav="profile" aria-label="Edit your character" id="header-avatar">AZ</button></div></header>
+  <main id="main" tabindex="-1"></main>
+  <footer class="main-footer"><span>All characters are fictional. No messages are sent to real people.</span><span>Project saved on this device only.</span></footer>
+</div>
+<dialog id="modal" aria-labelledby="modal-title"><div id="modal-content"></div></dialog>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<noscript><div class="noscript">Please enable JavaScript to use Friend Match.</div></noscript>
+</body>
+</html>
